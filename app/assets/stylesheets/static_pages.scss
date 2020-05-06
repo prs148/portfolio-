@@ -1,3 +1,171 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+font-family: 'Merriweather', serif;
+margin:0;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 0;
+
+}
+
+h2{
+  color: black;
+  font-size: 18px;
+  margin-top:0;
+  
+}
+
+h3 {
+  text-align:center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 100px;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 24px;
+}
+.about-container {
+  background: url('bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:600px;
+
+}
+
+.about-list {
+  text-align: center;
+
+}
+
+.bio{
+  color: black;
+  font-size: 14px;
+}
+
+
+.me {
+    height: 150px;
+    transform: rotate(90deg);
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    margin-top: 40px;
+
+}
+
+.about {
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.grey {
+  height:3px;
+  background-color: #6B6B6B;
+  border:none;
+  width: 50px;
+}
+
+.blue {
+  border-top: 5px dotted #0585F4;
+  width: 250px;
+  border-left: none;
+  border-bottom:none;
+  border-right:none;
+}
+
+.box{ 
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 80px;
+}
+
+.clear {
+  clear:both;
+}
+
+p {
+  text-align:center;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.skills-and-tools{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.icons {
+  text-align: center;
+}
+
+
+.contact-me {
+  height: 350px;
+  background-color: #202020;
+  padding-top: 30px;
+}
+
+.contact-headline {
+  color: white;
+}
+
+.contact-info{
+  color: white;
+  font-size: 13px;
+  margin-top:30px;
+
+}
+
+.contact-link {
+  color: white;
+  font-wieght:bold;
+  font-size:13px;
+}
+
+.nav-link{
+  color: black ;
+  text-decoration:  none 
+}
+
+li {
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-left:30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+
+}
+
+.hire-me {
+  border-style: solid;
+  border-color:white;
+}
+
+
+
