@@ -1,6 +1,6 @@
 body{
 font-family: 'Merriweather', serif;
-margin:0;
+margin:0px;
 }
 
 h1 {
@@ -30,18 +30,40 @@ h4 {
   text-align: center;
   font-size: 24px;
 }
+
+h5{
+ 
+  color: black;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+.h5-link{
+  color: black;
+  text-decoration: none;
+}
+
 .about-container {
-  background: url('bg.jpg') no-repeat center center fixed; 
+  background: url('bg1.jpg') no-repeat center center fixed ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height:600px;
 
+
+}
+
+.nav {
+  background: #046579;
+  height:90px;
+  margin: 0px;
+
 }
 
 .about-list {
   text-align: center;
+  margin: 0;
 
 }
 
@@ -53,7 +75,7 @@ h4 {
 
 .me {
     height: 150px;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     border-radius: 100%;
     border-style: solid;
     border-color: white;
